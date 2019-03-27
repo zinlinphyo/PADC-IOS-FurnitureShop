@@ -9,7 +9,7 @@
 import UIKit
 import SDWebImage
 
-class HomeViewController: UIViewController {
+class HomeViewController: BaseViewController {
 
     @IBOutlet weak var cvProductListing: UICollectionView!
     var popularProducts: [(name: String,

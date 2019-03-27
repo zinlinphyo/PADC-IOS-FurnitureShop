@@ -9,7 +9,7 @@
 import UIKit
 import MBProgressHUD
 
-class SignUpViewController: UIViewController {
+class SignUpViewController: BaseViewController {
 
     @IBOutlet weak var tfFullName: ShadowTextField!
     @IBOutlet weak var imvProfilePhoto: UIImageView!

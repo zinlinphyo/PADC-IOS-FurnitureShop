@@ -11,7 +11,7 @@ import Firebase
 import FirebaseAuth
 import MBProgressHUD
 
-class MainViewController: UIViewController {
+class MainViewController: BaseViewController {
 
     @IBOutlet weak var btnSignUp: ButtonWithCorner!
     @IBOutlet weak var tfEmail: ShadowTextField!
